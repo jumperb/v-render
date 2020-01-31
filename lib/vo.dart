@@ -124,7 +124,7 @@ class VOThen<T> extends VO<T> {
   VOThen(this._callback) : super(null);
   @override
   void signal(dynamic newValue) {
-    _callback(v);
+    _callback(newValue);
   }
 }
 
