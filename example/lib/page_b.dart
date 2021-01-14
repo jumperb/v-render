@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'page.dart';
 import 'package:vrender/vrender.dart';
 
-class PageB extends Page {
+class PageB extends VPage {
   VO<int> numberA = VO(1);
   VO<int> numberB = VO(1);
   final view = MyComp();

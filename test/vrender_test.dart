@@ -4,6 +4,8 @@ import 'package:flutter_test/flutter_test.dart';
 void main() {
   const MethodChannel channel = MethodChannel('vrender');
 
+  TestWidgetsFlutterBinding.ensureInitialized();
+
   setUp(() {
     channel.setMockMethodCallHandler((MethodCall methodCall) async {
       return '42';
@@ -15,6 +17,6 @@ void main() {
   });
 
   test('getPlatformVersion', () async {
-    // expect(await Vrender.platformVersion, '42');
+    
   });
 }

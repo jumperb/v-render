@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'Page.dart';
+import 'page.dart';
 
 class MMenuItem {
   String title;
@@ -7,8 +7,8 @@ class MMenuItem {
   MMenuItem(this.title, this.block);
 }
 
-class MenuPage extends Page {
-  List<MMenuItem> _items = List();
+class MenuPage extends VPage {
+  List<MMenuItem> _items = [];
   MenuPage() {
     title = "菜单";
   }

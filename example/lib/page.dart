@@ -7,7 +7,7 @@ class PageWidget extends StatefulWidget {
   State createState() => this.state;
 }
 
-class Page extends State {
+class VPage extends State {
   var title = "标题";
 
   PreferredSizeWidget buildAppbar(BuildContext context) {
@@ -67,6 +67,8 @@ class Page extends State {
                 )),                
                 child: child
               );
+            default:
+            return null;
           }          
         }
       )

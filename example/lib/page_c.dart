@@ -4,7 +4,7 @@ import 'package:vrender/vrender.dart';
 
 part 'page_c.view.dart';
 
-class PageC extends Page {
+class PageC extends VPage {
   VO<int> numberA = VO(1);
   VO<int> numberB = VO(1);
   PageC() {

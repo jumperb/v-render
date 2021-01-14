@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'page.dart';
 import 'package:vrender/vrender.dart';
 
-class PageA extends Page {
+class PageA extends VPage {
   VO<int> numberA = VO(1);
   VO<int> numberB = VO(1);
   VO<int> numberC = VO(1);
